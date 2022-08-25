@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: runners.RunnerClass
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 44.109 s <<< FAILURE! - in runners.RunnerClass
+This feature is  going to add employees in HRMS application.Adding employees from excel file  Time elapsed: 43.551 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[14723353 maks32 MS noori]> but was:<[No Records Found]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at steps.AddEmployeeSteps.user_adds_multiple_employees_from_excel_file_using_sheet_and_verify_the_employee_has_added(AddEmployeeSteps.java:141)
+	at ✽.user adds multiple employees from excel file using "employeeData" sheet and verify the employee has added(file:///C:/Users/Aimal/IdeaProjects/CucumberBatchs13/src/test/resources/features/AddEmployee.feature:45)
+
